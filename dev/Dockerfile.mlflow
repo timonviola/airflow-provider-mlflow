@@ -1,5 +1,5 @@
 ARG MLFLOW_VERSION=">=2.0"
-FROM python:3.9.15
+FROM python:3.13.0a1
 
 
 RUN pip install mlflow${MLFLOW_VERSION} psycopg2==2.9.5 pysftp==0.2.9 && \
